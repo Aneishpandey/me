@@ -41,10 +41,10 @@ const services = [
 
 export default function ServicesSection() {
   return (
-    <section className="bg-green-50 section">
+    <section className="bg-primary-[#ffffff] section mt-20">
       {/* Section Title */}
       <div className="text-center mb-12">
-        <h3 className="text-2xl font-bold bg-gradient-to-r from-primary-500 to-primary-700 text-transparent bg-clip-text uppercase">
+        <h3 className="text-h3 font-bold bg-gradient-to-r from-primary-500 to-primary-700 text-transparent bg-clip-text uppercase">
           Medical Services
         </h3>
         <h2 className="text-4xl lg:text-5xl font-extrabold text-primary-800 mt-2">
@@ -53,7 +53,7 @@ export default function ServicesSection() {
       </div>
 
       {/* Service Cards */}
-      <div className="section-center grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div className="section-center  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {services.map((service) => (
           <div key={service.id} className="service-card">
             {/* Logo Wrapper */}

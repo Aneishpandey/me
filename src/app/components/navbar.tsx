@@ -11,10 +11,10 @@ export default function Navbar() {
   };
 
   const menuLinks = [
-    { href: "#home", label: "Home" },
-    { href: "#features", label: "Features" },
-    { href: "#video-guide", label: "Video Guide" },
-    { href: "#documentation", label: "Documentation" },
+    { href: "/", label: "Home" },
+    { href: "/aboutus", label: "About us" },
+    { href: "/doctormeet", label: "Meet the Doctor" },
+    { href: "/FAQs", label: "FAQs" },
     { href: "#support", label: "Support" },
   ];
 
@@ -23,7 +23,7 @@ export default function Navbar() {
   };
 
   return (
-    <nav className="bg-white py-4 border-b border-gray-300 shadow-lg z-10">
+    <nav className="  bg-white py-4 border-b border-gray-300 shadow-lg z-10">
       <div className="section-center flex justify-between items-center px-6">
         {/* Logo */}
         <div className="flex items-center space-x-4">
